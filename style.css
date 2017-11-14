@@ -1,0 +1,47 @@
+/* Paste in code from your old files to save time and avoid typos! */
+
+body{
+	height:100vh;
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.left { 
+	height:100vh;
+	width:50vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.right { 
+	height:100vh;
+	width:50vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.card {
+	height:50%;
+	width:50%;
+}
+
+.red {
+	background-color: red;
+}
+
+.darkred{
+	background-color: darkred;
+}
+
+@media screen and (max-width: 800px){
+	.left{
+		height:30vh;
+	    width:100vw;
+	}
+    .right{
+		height:30vh;
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+	}
