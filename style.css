@@ -1,3 +1,4 @@
+
 /* Paste in code from your old files to save time and avoid typos! */
 
 body{
@@ -33,6 +34,9 @@ body{
 	content: url(sister.png);
 }
 
+.madison {
+ content: url(madison.gif);
+}
 .darkred{
 	background-color: darkred;
 }
