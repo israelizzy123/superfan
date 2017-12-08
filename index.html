@@ -1,36 +1,35 @@
-
 <!DOCTYPE html>
 
 <html>
 
 	<head>
 		<meta charset="UTF-8">
-		<link href="dodgers.ico" rel="icon" type="image/x-icon" />
-		<title>Go Dodgers</title>
+		<link href="fx.ico" rel="icon" type="image/x-icon" />
+		<title>AHS</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
 <!-- start adding DIVs and using classes you create in the style.css file -->
 	<body>
 	
 	<div class="left darkred">
-  <img src="AHS1.png" alt="ahs" width="460" height="345">
-  
-
+  <img src="AHS5.gif" alt="ahs" width="500" height="400">
 	</div>
 	
 	<div class="right">
 		<div class="card darkred">
-		<img class="skull" src""/>
+		<img class="evan" id="one" onclick="show(This)"/>
+		</div>
+		<div class="card red"  onclick="jude(This)">
+		<img class="jude" id="two"/>
 		</div>
 		<div class="card red">
-		<img class="sister" src=""/>
+		<img class="madison" id="three" onclick="show(This)"/>
 		</div>
-		<div class="card red">
-		<img class="madison" src=""/>
+		<div class="card darkred"> 
+		<img class="finn" id="four" onclick="show(This)"/>
 		</div>
-		<div class="card darkred"></div>
 	</div>
-	
+	<script src="script.js"></script>
 	</body>
    
 </html>
